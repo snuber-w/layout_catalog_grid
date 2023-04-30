@@ -1,7 +1,7 @@
 .catalog {
   display: grid;
   margin: auto;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 48px;
 
   @media (min-width: 488px) {
@@ -17,7 +17,7 @@
       grid-template-columns: repeat(3, 200px);
     }
   }
-  
+
   @media (min-width: 1024px) {
     & {
       max-width: 1024px;
