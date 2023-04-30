@@ -1,7 +1,7 @@
 .catalog {
   display: grid;
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 48px;
 
   @media (min-width: 488px) {
